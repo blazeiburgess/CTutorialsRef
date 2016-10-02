@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1447417995 source:/home/transvaal/Code/C Tutorials/Tutorial1_DownloadAndInstall/main.c
+	<stdio.h>
+	<stdlib.h>
+

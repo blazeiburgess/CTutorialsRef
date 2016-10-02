@@ -1,0 +1,6 @@
+#ifndef MYFILE_INCLUDED
+#define MYFILE_INCLUDED
+
+void printInt(int i);
+
+#endif // MYFILE_INCLUDED

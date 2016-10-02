@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1448114791 source:/home/transvaal/Code/C Tutorials/Tutorial79_the-generic-pointer/main.c
+	<stdio.h>
+	<stdlib.h>
+

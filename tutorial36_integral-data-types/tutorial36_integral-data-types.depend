@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1447679273 source:/home/transvaal/Code/C Tutorials/tutorial36_integral-data-types/main.c
+	<stdio.h>
+	<stdlib.h>
+

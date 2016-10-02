@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1447943640 source:/home/transvaal/Code/C Tutorials/tutorial64_memory-functions-2-memcpy/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

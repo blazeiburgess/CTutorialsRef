@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1447423504 source:/home/transvaal/Code/C Tutorials/tutorial9_make-a-calculator/main.c
+	<stdio.h>
+	<stdlib.h>
+

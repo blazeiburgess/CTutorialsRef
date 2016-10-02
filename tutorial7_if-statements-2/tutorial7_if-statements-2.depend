@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1447420362 source:/home/transvaal/Code/C Tutorials/tutorial7_if-statements-2/main.c
+	<stdio.h>
+	<stdlib.h>
+

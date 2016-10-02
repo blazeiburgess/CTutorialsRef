@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1447424656 source:/home/transvaal/Code/C Tutorials/tutorial10_switch-structure/main.c
+	<stdio.h>
+	<stdlib.h>
+

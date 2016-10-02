@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1447680579 source:/home/transvaal/Code/C Tutorials/tutorial39_hexadecimal-number-system/main.c
+	<stdio.h>
+	<stdlib.h>
+

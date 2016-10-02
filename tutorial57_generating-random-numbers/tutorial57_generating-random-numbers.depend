@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1447855595 source:/home/transvaal/Code/C Tutorials/tutorial57_generating-random-numbers/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
