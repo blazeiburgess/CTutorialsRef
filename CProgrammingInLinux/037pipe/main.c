@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, const char *argv[]) {
+  pid_t pid;
+  int mypipefd[2];
+  int ret;
+  char buf[20];
+
+  ret = pipe(mypipefd);
+
+  if (ret == -1) {
+    perror("Pipe error");
+    exit(1);
+  }
+
+  pid = fork();
+
+  if (pid == 0) {
+    /* Child Process */
+    printf("Child Process\n");
+    close(mypipefd[0]);
+    write(mypipefd[1], "Hello there!", 12);
+  } else {
+    /* Parent Process */
+    printf("Parent Process\n");
+    close(mypipefd[1]);
+    read(mypipefd[0], buf, 15);
+    printf("buf: %s\n", buf);
+
+  }
+
+  return 0;
+}
